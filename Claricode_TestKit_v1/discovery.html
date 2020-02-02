@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Claricode Test Kit</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/3269f05a20.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="images/claricode-logo.png" alt="..." class="rounded mx-auto d-block" width="200px"></div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-light">Intro</a>
+        <a href="principles.html" class="list-group-item list-group-item-action bg-light">Principles</a>
+        <a href="discovery.html" class="list-group-item list-group-item-action bg-light">Discovery Phase</a>
+        <a href="testing.html" class="list-group-item list-group-item-action bg-light">Testing Phase</a>
+        <a href="reporting.html" class="list-group-item list-group-item-action bg-light">Reporting Phase</a>
+        <a href="testAssets.html" class="list-group-item list-group-item-action bg-light">Test Assets</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <i class="fas fa-bars" id="menu-toggle"></i>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      
+      <div class="container-fluid">
+        <h2 class="mt-4">Discovery Phase</h2>
+        <p>This is the initial phase of any software project. On the testing side, there are a number of scenarios in which you can enter a project.  It could be a legacy system, pre-development, or mid development.</p>
+        <p>No matter the scenario, the goal will remain the same, at the end of this phase you will want to have a solid understanding of the project.</p>
+
+      </div>
+
+	<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <i class="fas fa-tasks"></i> Initial Info Gathering
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>Before your team begins working on a new project or application, there will hopefully be some sort of "kickstart" meeting.  No matter
+        what your team may call it, it is a good forum to ask key questions.</p>
+         <a href="testSupport/ProjectOverview_TestSupport.docx" download>
+  		    <i class="fas fa-binoculars"></i> PROJECT OVERVIEW DOC
+	       </a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <i class="fas fa-tasks"></i> Prioritize Functionality
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>When working in a deadline oriented environment, it is important to triage issues and prioritize testing tasks.</p>
+        <p>You may be working on multiple projects, so outlining the first, secondary, and tertiary features ahead of time will allow yourself to become dialed in more quickly.</p>
+        <a href="testSupport/FeaturePriorities_TestSupport.docx" download>
+  		    <i class="fas fa-binoculars"></i> FEATURE PRIORITIES DOC
+	       </a>
+      </div>
+  </div>
+    <div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <i class="fas fa-tasks"></i> Test Operation Planning
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>To keep your sanity, manage your test operations effectively.  Define roles, processes, and schedules that can be easily followed.</p>
+        <a href="testSupport/TestOperations_TestSupport.docx" download>
+  		    <i class="fas fa-binoculars"></i> TEST OPERATIONS DOC
+	       </a>
+      </div>
+      
+</div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

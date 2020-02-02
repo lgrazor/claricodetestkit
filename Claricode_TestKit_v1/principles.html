@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Claricode Test Kit</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/3269f05a20.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="images/claricode-logo.png" alt="..." class="rounded mx-auto d-block" width="200px"></div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-light">Intro</a>
+        <a href="principles.html" class="list-group-item list-group-item-action bg-light">Principles</a>
+        <a href="discovery.html" class="list-group-item list-group-item-action bg-light">Discovery Phase</a>
+        <a href="testing.html" class="list-group-item list-group-item-action bg-light">Testing Phase</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Reporting Phase</a>
+        <a href="testAssets.html" class="list-group-item list-group-item-action bg-light">Test Assets</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <i class="fas fa-bars" id="menu-toggle"></i>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      
+      <div class="container-fluid">
+        <h2 class="mt-4">Claricode Testing Principles</h2>
+        <p>These are a few of the testing principles we have cultivated over the years and act as a personal policy in terms of your approach to software projects.</p>
+        <p>Every situation is different, but our hope is that these policy points will help as a guide to move you in the right direction.</p>
+    
+
+	<ul class="list-unstyled">
+ 		 <li class="media">
+   	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Economy of Actions</h5>
+      The only adversary of software projects is time. Therefore, every task should lend to the next. When you establish a one to many relationship with an action to goals, you are winning.
+    	</div>
+  		</li>
+  		
+ 		 <li class="media my-4">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Persistent Consistency</h5>
+      Be consistent with your test actions.  This could be naming conventions, project organization, etc.  Being disciplined in your methodology will free up mental bandwidth to slay the bigger dragons.
+    	</div>
+  		</li>
+  		
+  		<li class="media">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Test Through</h5>
+      The requirement is just the standard. The least you should do. I can not tell you how many times a bug has appeared a step or two beyond the end of a requirement. The end user will not hold back and neither should you.
+    	</div>
+  		</li>
+  		
+ 		 <li class="media my-4">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">See Something, Test Something</h5>
+      If you see a bug, you are accountable for it.  You may be testing something else and pressed for time, but do not leave landmines for your team mates.  Take the minute to record the preliminary details somewhere and circle back to investigate further or assign it to someone else.
+    	</div>
+  		</li>  		
+ 		 <li class="media my-4">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Establish SOPs and Iterate</h5>
+      Wherever you can, make a plan, communicate it, and document it.  Then change it for the better.  Repeat.  This will pay dividends when onboarding new personnel, integrating with other teams, and assuming team mates' roles when needed.
+    	</div>
+  		</li>
+  		
+  		<li class="media my-4">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Elevate Issues After All Else Fails</h5>
+      Everyone's time is important, but your leadership's time is always more expensive.  Ensure you've exhausted every conceivable angle before you send it up the chain.  And if it is required, frame it well and be prepared with the details.
+    	</div>
+  		</li>
+  		
+  		<li class="media my-4">
+    	<div class="media-body">
+      		<h5 class="mt-0 mb-1">Levity Without Slack</h5>
+      It is possbile to balance diligence with lightheartedness when working with developers.  Your goal should be to help them become a great programmer, not slam wits.
+    	</div>
+  		</li>
+	</ul>
+	</div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

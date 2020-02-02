@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Claricode Test Kit</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/3269f05a20.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="images/claricode-logo.png" alt="..." class="rounded mx-auto d-block" width="200px"></div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-light">Intro</a>
+        <a href="principles.html" class="list-group-item list-group-item-action bg-light">Principles</a>
+        <a href="discovery.html" class="list-group-item list-group-item-action bg-light">Discovery Phase</a>
+        <a href="testing.html" class="list-group-item list-group-item-action bg-light">Testing Phase</a>
+        <a href="reporting.html" class="list-group-item list-group-item-action bg-light">Reporting Phase</a>
+        <a href="testAssets.html" class="list-group-item list-group-item-action bg-light">Test Assets</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <i class="fas fa-bars" id="menu-toggle"></i>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      
+      <div class="container-fluid">
+        <h2 class="mt-4">Reporting Phase</h2>
+        <p>Communicating the issue to developers and stakeholders is the most crucial task of our position.  How we go about notifying the dev team can save money, time, and energy.</p>
+      </div>
+
+	<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          TASK ITEM: Documenting a Bug
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>The techniques you use to capture an issue will define how successful of a tester you are.  This efficiency carries over, and allows the development team the opportunity build more features instead of fixing ones.</p>
+        <a href="testSupport/BugReport_TestSupport.docx" download>
+  		    <i class="fas fa-binoculars"></i> BUG REPORT DOC
+	       </a>
+      </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          TASK ITEM: Formal Reporting
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>Not only will your dev piers value reporting, but your leadership will expect a concise representation of the application's status, from a quality perspective.  You are their scouts, you must be honest and objective in all of your evaluations</p>
+        <a href="testSupport/AppStatusReport_TestSupport.docx" download>
+  		    <i class="fas fa-binoculars"></i> APP STATUS REPORT DOC
+	       </a>
+      </div>
+  </div>
+  </div>
+      
+</div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
